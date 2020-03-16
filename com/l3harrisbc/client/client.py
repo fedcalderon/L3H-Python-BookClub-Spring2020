@@ -9,6 +9,8 @@ import zmq
 # Adding Python's logging library
 import logging
 
+print("Hello Client")
+
 # Configuring logging example
 logging.basicConfig(filename='client.log', filemode='w', format='%(asctime)s - %(levelname)s - CLIENT - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 # In order to start ZeroMQ, create a context
